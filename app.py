@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return 'Random forest ka server hega'
+    return 'This is my flask project.'
 
 @app.route('/<name>')
 def testingRoute(name):
